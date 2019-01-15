@@ -20,23 +20,8 @@ geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
 ###COORDINATES FOR THE 5 COMMUNITY AREAS 
 def id_community():
     '''
-    organization [dict]
-        dict_keys(['id', 'ein', 'name', 'careofname', 'address', 
-        'city', 'state', 'zipcode', 'exemption_number', 'subsection_code', 
-        'affiliation_code', 'classification_codes', 'ruling_date', 'deductibility_code', 
-        'foundation_code', 'activity_codes', 'organization_code', 'exempt_organization_status_code', 
-        'tax_period', 'asset_code', 'income_code', 'filing_requirement_code', 'pf_filing_requirement_code', 
-        'accounting_period', 'asset_amount', 'income_amount', 'revenue_amount', 'ntee_code', 'sort_name', 
-        'created_at', 'updated_at', 'data_source', 'have_extracts', 'have_pdfs'])
-    filings_with_data [list of dicts]
-    filings_without_data [list of dicts]
-    data_source: [str]
-    api_version: [int]
-    
-    note can cross ref w/ IRS list by EIN...
-    probably make that a hash table to use memory & lessen I/O
     '''
-    return ""
+    return
 
 #GEOPY THE ADDRESS
 def determine_coordinates(street):
