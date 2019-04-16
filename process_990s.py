@@ -78,4 +78,5 @@ def write_to_csv():
             #return #DEBUGGING
 
 if __name__ == "__main__":
-    write_to_csv()
+    #write_to_csv() # for creating initial csvs
+    pass
