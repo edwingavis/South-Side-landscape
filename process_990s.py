@@ -3,7 +3,7 @@
 """
 Created on Thu Jan  3 13:08:23 2019
 
-@author: egavis
+@author: jgavis
 """
 
 import os
