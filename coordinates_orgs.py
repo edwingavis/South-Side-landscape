@@ -3,7 +3,7 @@
 """
 Created on Fri Feb  1 14:18:12 2019
 
-@author: egavis
+@author: jgavis
 """
 #10964
 import time
