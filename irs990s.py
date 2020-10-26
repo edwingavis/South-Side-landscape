@@ -3,7 +3,7 @@
 """
 Created on Thu Jan  3 11:32:50 2019
 
-@author: egavis
+@author: jgavis
 """
 
 import json
